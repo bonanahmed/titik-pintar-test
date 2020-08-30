@@ -4,15 +4,27 @@ const MemberCard = () => {
   return (
     <div className="row">
       <div className="col">
-        <img alt="" src="http://placehold.it/32x32" />
+        <img
+          className="rounded-circle profile-picture"
+          alt=""
+          src="http://placehold.it/32x32"
+        />
       </div>
       <div className="col">
         <div className="row">
-          <a>Full Name</a>
-          <a>Jobs Name</a> <a>Jobs</a>
+          <a>CHRISTINE NATALIE</a>
         </div>
         <div className="row">
-          <a>Rating</a> <a>award</a>
+          <a>Desainer Olive Oil </a> <a> Animasi</a>
+        </div>
+
+        <div className="row">
+          <div className="col">
+            <i className="fa fa-star">4.9</i>
+          </div>
+          <div className="col">
+            <i className="fa fa-trophy"> 15</i>
+          </div>
         </div>
       </div>
     </div>

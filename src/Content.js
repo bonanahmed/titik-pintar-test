@@ -3,7 +3,7 @@ import MemberCard from "./MemberCard";
 
 const Content = () => {
   return (
-      <div className="container">
+      <div className="container-fluid">
           <MemberCard/>
       </div>
   );

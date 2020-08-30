@@ -5,8 +5,10 @@ import Content from "./Content";
 
 const Header = () => {
   return (
-    <div className="container">
-      <h5>Undang Peserta Terbaik untuk Tim Baru mu!</h5>
+    <div className="container-fluid">
+      <div className="header">
+        <h6>Undang Peserta Terbaik untuk Tim Baru mu!</h6>
+      </div>
       <MenuTab>
         <div label="Desainer">
           <SearchBox />
